@@ -91,7 +91,7 @@
                     <navigationItem key="navigationItem" id="EwS-yQ-kbg">
                         <nil key="title"/>
                         <textField key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search" textAlignment="natural" minimumFontSize="17" id="kqu-en-btm">
-                            <rect key="frame" x="383.5" y="7" width="67" height="30"/>
+                            <rect key="frame" x="317" y="7" width="200" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <nil key="textColor"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
