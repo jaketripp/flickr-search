@@ -58,26 +58,26 @@
                             <autoresizingMask key="autoresizingMask"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mnm-wT-emT">
-                                    <rect key="frame" x="16" y="8" width="76" height="38.5"/>
+                                    <rect key="frame" x="20" y="8" width="76" height="38.5"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5xj-0w-vbh" userLabel="Border">
-                                    <rect key="frame" x="16" y="46.5" width="802" height="8"/>
+                                    <rect key="frame" x="20" y="46.5" width="794" height="8"/>
                                     <color key="backgroundColor" red="0.0" green="0.41176470588235292" blue="0.18823529411764706" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="8" id="ddg-Nc-9ji"/>
+                                        <constraint firstAttribute="height" constant="8" id="MgK-o6-RWK"/>
                                     </constraints>
                                 </view>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
-                                <constraint firstItem="Mnm-wT-emT" firstAttribute="leading" secondItem="6ZW-ul-uH6" secondAttribute="leading" constant="16" id="CDq-qy-4Iz"/>
-                                <constraint firstItem="5xj-0w-vbh" firstAttribute="top" secondItem="Mnm-wT-emT" secondAttribute="bottom" id="Kog-dv-U9i"/>
-                                <constraint firstItem="5xj-0w-vbh" firstAttribute="leading" secondItem="6ZW-ul-uH6" secondAttribute="leading" constant="16" id="Lyg-rU-20S"/>
-                                <constraint firstItem="Mnm-wT-emT" firstAttribute="top" secondItem="6ZW-ul-uH6" secondAttribute="top" constant="8" id="fHQ-d1-QS8"/>
-                                <constraint firstAttribute="trailing" secondItem="5xj-0w-vbh" secondAttribute="trailing" constant="16" id="gLU-g1-yrO"/>
+                                <constraint firstAttribute="trailing" secondItem="5xj-0w-vbh" secondAttribute="trailing" constant="20" id="6xM-in-nmb"/>
+                                <constraint firstItem="Mnm-wT-emT" firstAttribute="top" secondItem="6ZW-ul-uH6" secondAttribute="top" constant="8" id="777-mF-hOi"/>
+                                <constraint firstItem="Mnm-wT-emT" firstAttribute="leading" secondItem="6ZW-ul-uH6" secondAttribute="leading" constant="20" id="Twd-EB-iEo"/>
+                                <constraint firstItem="5xj-0w-vbh" firstAttribute="leading" secondItem="6ZW-ul-uH6" secondAttribute="leading" constant="20" id="ULn-Ez-a2B"/>
+                                <constraint firstItem="5xj-0w-vbh" firstAttribute="top" secondItem="Mnm-wT-emT" secondAttribute="bottom" id="eku-K7-VtH"/>
                             </constraints>
                             <connections>
                                 <outlet property="label" destination="Mnm-wT-emT" id="nyB-ow-xtQ"/>
