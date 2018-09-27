@@ -127,7 +127,7 @@ extension FlickrPhotosViewController {
             let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind,
                                                                              withReuseIdentifier: "FlickrPhotoHeaderView",
                                                                              for: indexPath) as! FlickrPhotoHeaderView
-            headerView.label.text = searches[(indexPath as NSIndexPath).section].searchTerm
+            headerView.label.text = searches[(indexPath as NSIndexPath).section].searchTerm.capitalized
             return headerView
         default:
             //4
